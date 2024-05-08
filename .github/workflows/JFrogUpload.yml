@@ -19,9 +19,9 @@ jobs:
         with:
           version: latest
         env:
-          JF_URL: "https://devopskiran002.jfrog.io"
-          JF_USER: "admin"
-          JF_PASSWORD: "Testing1!"
+          JF_URL: "https://devopsjfrog3.jfrog.io/"
+          JF_USER: "devops"
+          JF_PASSWORD: "DevOps11"
     
       - name: Run JFrog CLI Ping
         env:
