@@ -30,9 +30,9 @@ jobs:
           # export JFROG_CLI_HOME="/home/runner/work/jenkins-test/jenkins-test"
           jf rt ping 
           jf --version
-          jf rt u "README010.md" "local_repo_github/devops/"
-          jf rt u "README011.md" "local_repo_github/devops/"
-          jf rt u "README012.md" "local_repo_github/devops/"
+          jf rt u "README010.md" "local_repo_github/devops"
+          jf rt u "README011.md" "local_repo_github/devops"
+          jf rt u "README012.md" "local_repo_github/devops"
           
           # Collect environment variables for the build
           #jf rt bce
