@@ -31,6 +31,10 @@ jobs:
           jf rt ping 
           jf --version
           jf rt u "README001.md" "local_repo"
+          jf rt u "README002.md" "local_repo"
+          jf rt u "README003.md" "local_repo"
+          jf rt u "README004.md" "local_repo"
+          jf rt u "README005.md" "local_repo"
           # Collect environment variables for the build
           #jf rt bce
           # Collect VCS details from git and add them to the build
